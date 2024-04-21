@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <title>LOREM!</title>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: black">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">LoremBlog</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Project </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Web design</a></li>
+                <li><a class="dropdown-item" href="#">Graphic design</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+    <section class="jumbotron text-center">
+      <img src="img/affandi1.jpg" alt="Setia Farel" width="300" class="rounded-circle" />
+      <h1 class="display-4-bold">"Rokok Sebagai Manifestasi Kesempurnaan"</h1>
+      <p class="lead">Berbahaya bagi raga, tenang bagi jiwa</p>
+    </section>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <!-- Konten artikel -->
+          <p>
+            Rokok seringkali dilihat sebagai kontroversi dalam dunia kesehatan, tetapi di baliknya terdapat kompleksitas dan makna yang mendalam. Sebagian orang melihat rokok bukan hanya sebagai produk tembakau, tetapi juga sebagai
+            manifestasi dari berbagai aspek kehidupan manusia, termasuk kesempurnaan yang dicari-cari. Rokok sebagai Simbol Ketenangan Dalam kehidupan yang penuh tekanan dan stres, banyak yang melihat rokok sebagai jalan keluar yang
+            sederhana namun efektif. Rokok dapat menjadi simbol ketenangan dalam momen-momen sulit, memberikan kesempurnaan relaksasi yang dicari manusia di tengah kesibukan modern. Estetika dan Kehangatan Rokok Dari sudut pandang artistik,
+            rokok seringkali dipandang sebagai objek yang memiliki keindahan tersendiri. Asapnya yang berombak, warna tembakau yang khas, dan bentuknya yang sederhana namun elegan, semuanya menciptakan estetika yang menarik bagi sebagian
+            orang. Ritual dan Keterikatan Emosional Bagi sebagian individu, merokok bukan hanya sekadar kebiasaan, tetapi juga sebuah ritual yang menghubungkan mereka dengan kenangan, emosi, dan pengalaman hidup. Rokok menjadi manifestasi
+            dari kebersamaan, introspeksi, atau sekadar kesendirian yang dihargai. Kecenderungan Manusia pada Kesempurnaan yang Relatif Penggunaan rokok juga mencerminkan kecenderungan manusia untuk mencari kesempurnaan dalam pengalaman
+            yang relatif. Meskipun dikenal memiliki dampak negatif bagi kesehatan, banyak yang tetap memilih merokok sebagai bagian dari kehidupan mereka, mungkin karena persepsi akan kesempurnaan yang mereka rasakan. Kesadaran Akan Risiko
+            dan Pilihan Pribadi Penting untuk diakui bahwa rokok juga melibatkan kesadaran akan risiko dan pilihan pribadi. Bagi sebagian, merokok merupakan keputusan yang mereka sadari konsekuensinya namun tetap memilih untuk melakukannya,
+            mencerminkan aspek kebebasan dan tanggung jawab atas pilihan hidup. Dalam kesimpulannya, rokok bukan hanya sebuah produk atau kebiasaan, tetapi juga simbolik yang kompleks dari berbagai dimensi kehidupan manusia. Meskipun
+            pandangan terhadap rokok dapat sangat bervariasi, penting untuk memahami bahwa setiap individu memiliki pandangan dan pengalaman yang unik terkait dengan manifestasi kesempurnaan yang mereka temukan dalam rokok.
+          </p>
+          <!-- Tombol Share -->
+          <button class="btn btn-secondary">Share</button>
+          <!-- Tombol Artikel Sebelum dan Selanjutnya -->
+          <div class="btn-group" role="group" aria-label="Tombol Artikel">
+            <a href="index.html" class="btn" style="background-color: black; color: white; margin-right: 5px">Home</a>
+            <a href="2.html" class="btn" style="background-color: black; color: white">Next Article</a>
+          </div>
+          <!-- Rekomendasi Artikel Lainnya -->
+          <h3>Rekomendasi Artikel Lainnya</h3>
+          <ul>
+            <li><a href="#">Judul Artikel 1</a></li>
+            <li><a href="#">Judul Artikel 2</a></li>
+            <li><a href="#">Judul Artikel 3</a></li>
+          </ul>
+          <!-- Komentar Pengunjung -->
+          <h3>Komentar Pengunjung</h3>
+          <!-- Kolom Komentar -->
+          <form>
+            <div class="form-group">
+              <label for="nama">Nama:</label>
+              <input type="text" class="form-control" id="nama" />
+            </div>
+            <div class="form-group">
+              <label for="komentar">Komentar:</label>
+              <textarea class="form-control" id="komentar" rows="3"></textarea>
+            </div>
+            <button type="submit" class="btn" style="background-color: black; color: white">Kirim Komentar</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
